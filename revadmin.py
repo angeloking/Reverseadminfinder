@@ -39,6 +39,8 @@ def reverse(url):
 	file.close()
 
 def getdata():
+	num_lines =sum(1 for line in open('ip.txt'))
+	print 'Total domains found: ' + str(num_lines)
 	came = open('ip.txt', 'r')
 	for item in came:
 		try:
