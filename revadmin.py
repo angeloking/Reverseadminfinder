@@ -59,6 +59,7 @@ def main():
 	reverse(site)
 	getdata()
 
-main()
+if __name__ == '__main__':
+    main()
 	
 	
